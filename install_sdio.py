@@ -113,7 +113,7 @@ if __name__ == "__main__":
     # Determine the absolute path of your MCP server script.
     # This example assumes the MCP server script (sqlite_mcp_server.py) is in the same directory as this installer.
     this_dir = Path(__file__).parent.resolve()
-    server_script_path = str((this_dir / "sqlite_mcp_server.py").resolve())
+    server_script_path = str((this_dir / "sqlite_sdio_mcp_server.py").resolve())
     logger.debug(f"MCP server script absolute path: {server_script_path}")
     
     # Define the command to run your MCP server.

@@ -36,7 +36,7 @@ logger = logging.getLogger("sqlite_mcp_server")
 # ------------------------------------------------------------------------------
 # Path to your company’s SQLite database; adjust as needed.
 #DB_PATH = "/Users/prayank/code/mcp-gpt-implementation/sample_company.db"
-DB_PATH = "/Users/prayank/Downloads/portfolio_tracker.db"
+DB_PATH = "/Users/prayank/code/mcp-gpt-implementation/startups.db"
 
 try:
     # Connect to the SQLite database using sqlite3 and set row_factory to
